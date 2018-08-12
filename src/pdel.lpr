@@ -1,15 +1,13 @@
 {
 
-Program:  Pascal Delete Utility
-Function: Replacement for Windows del and rmddir
-Language: Pascal - Lazarus
-Author:   James O. Dreher
-Created:  8/10/2018
-Lazarus Project Options:
-  project inspector, add lazUtils
-  Compiler Options, Config and Target, UNcheck win32 gui
-
-  Usage:    pdel /h
+Program:    Pascal Delete Utility
+Function:   Yet another alternative to Windows del and rmdir
+Copyright:  Copyright (C) 2018 by James O. Dreher
+License:    https://opensource.org/licenses/MIT
+Created:    8/10/2018
+LazProject: project inspector, add lazUtils
+            Compiler Options, Config and Target, UNcheck win32 gui
+Usage:``    pdel /h
 
   pdel /s path           del path tree, then path
 

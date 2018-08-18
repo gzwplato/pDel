@@ -7,6 +7,13 @@
 
 Yet another alternative to Windows del and rmdir
 
+## Why pDel?
+Windows rmdir won't delete subdirs if they aren't empty
+
+Windows del wont' delete the top level dir
+
+pDel resolves the above issues.
+
 ## Help
 	  pdel [-options|/options] [@list|path]
 	  h|?  List options and how to use them.
